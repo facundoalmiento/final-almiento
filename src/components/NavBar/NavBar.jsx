@@ -10,19 +10,21 @@ const NavBar = () => {
 
       <ul className="categories">
         <li className="category">
-          <Link to="/category/remeras" className="text-link">Funcional</Link>
+          <Link to="/category/Accesorios" className="text-link">Accesorios</Link>
         </li>
         <li className="category">
-          <Link to="/category/pantalones" className="text-link" >Pesas</Link>
+          <Link to="/category/Funcional" className="text-link" >Funcional</Link>
         </li>
         <li className="category">
-          <Link to="/category/zapatillas" className="text-link">Movilidad</Link>
+          <Link to="/category/Yoga y Pilates" className="text-link">Yoga y Pilates</Link>
         </li>
       </ul>
 
       <Link to="/" className="brand primary-font-color">
-        <BsBox className="icon-brand" />
-        <p className="title-brand ">CodeGym Store</p>
+      <div className="icon-brand">
+      <img src="/src/assets/logo-codegym.png" alt="Brand Icon" className="image-icon" />
+      </div>
+        <p className="title-brand ">STORE</p>
       </Link>
 
       <CartWidget />

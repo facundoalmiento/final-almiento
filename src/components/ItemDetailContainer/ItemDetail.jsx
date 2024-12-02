@@ -12,7 +12,7 @@ const ItemDetail = ({ product }) => {
     const productCart = { ...product, quantity: count }
 
     addProductInCart(productCart)
-    //cambiamos el estado para poder ocultar ItemCount
+    
     setShowItemCount(false)
   }
 

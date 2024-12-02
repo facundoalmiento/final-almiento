@@ -3,7 +3,7 @@
   height: 80px;
   display: flex;
   align-items: center;
-  background-color: rgb(33, 37, 41);
+  background-color: rgb(37, 37, 37);
 }
 .navbar .categories{
   width: 33.3%;
@@ -16,7 +16,7 @@
   list-style: none;
 }
 .categories .category .text-link:hover{
-  color: #ffffff;
+  color: #d7ff37;
   text-decoration: underline;
 }
 
@@ -26,9 +26,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: visible;
 }
-.brand .icon-brand{
-  font-size: 40px;
+.brand .icon-brand img{
+  max-width: 25%; 
+  height: auto;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 .brand .title-brand{
   padding: 0 10px;
@@ -44,13 +49,12 @@
 }
 .cartwidget .icon-cartwidget{
   font-size: 30px;
-  color: #ffffff;
+  color: #d7ff37;
 }
 .cartwidget .empty-cartwidget{
   font-size: 30px;
-  color: rgb(14, 75, 66);
+  color: rgb(64, 64, 64);
 }
 .cartwidget .number-cartwidget{
   padding: 0 10px;
 }
-  
