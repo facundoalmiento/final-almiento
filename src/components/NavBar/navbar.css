@@ -29,15 +29,19 @@
   overflow: visible;
 }
 .brand .icon-brand img{
-  max-width: 25%; 
+  position: relative;
+  max-width: 33%;
   height: auto;
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
+  left: 29%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .brand .title-brand{
-  padding: 0 10px;
-  font-weight: 600;
+  position: relative;
+    padding: 0 10px;
+    font-weight: 500;
+    right: 32%;
 }
 
 .cartwidget{
