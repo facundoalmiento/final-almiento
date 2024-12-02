@@ -7,7 +7,6 @@ import { BsFillTrash3Fill } from "react-icons/bs"
 const Cart = () => {
   const { cart, totalPrice, deleteProductById, deleteCart } = useContext(cartContext)
 
-  //Early return
   if( cart.length === 0 ){
     return(
       <div className="empty-cart">

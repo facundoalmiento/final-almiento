@@ -30,7 +30,6 @@ const Checkout = () => {
       total: totalPrice()
     }
     
-    //antes de subir la orden, validamos los datos del formulario
     const response = await validateForm(dataForm)
     if(response.status === "success"){
       uploadOrder(order)
